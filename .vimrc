@@ -1,5 +1,5 @@
 syntax on
-set guifont=SpaceMonoNerdFontCompleteM-Regular:h18
+set guifont=SpaceMonoNerdFontCompleteM-Regular:h16
 
 set clipboard=unnamed
 
