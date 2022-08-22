@@ -1,5 +1,8 @@
 syntax on
-set guifont=SpaceMonoNerdFontCompleteM-Regular:h16
+
+set fu	" fullscreen startup
+" set guifont=SpaceMonoNerdFontCompleteM-Regular:h16
+set guifont=MesloLGS-NF-Regular:h16
 
 set clipboard=unnamed
 
@@ -11,7 +14,7 @@ set nowrap
 " set smartcase
 set ignorecase
 set incsearch
-set textwidth=80
+" set textwidth=80
 
 " remaps the leader from backslash to space
 nnoremap <SPACE> <Nop>
@@ -101,7 +104,7 @@ au BufNewFile, BufRead *.js,*.html,*.css
 "###############################################################################
 
 let g:netrw_keepdir = 1
-" let g:netrw_winsize = 50		" set netrw window size to ##%
+let g:netrw_winsize = 100		" set netrw window size to ##%
 let g:netrw_banner = 0			" hide the banner (toggle with 'I')
 let g:netrw_liststyle = 0		" default view
 let g:netrw_liststyle = 1		" show time and size
