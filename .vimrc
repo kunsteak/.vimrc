@@ -72,6 +72,10 @@ set nocompatible		" limit search to your project
 set path+=**			" search all subdirectories and recursively
 set wildmenu			" shows multiple matches on one line
 
+" filetype on
+" filetype plugin indent on
+filetype plugin on
+
 "###############################################################################
 "#	Python Settings
 "###############################################################################
@@ -267,8 +271,6 @@ call plug#end()
 colorscheme gruvbox 
 " colorscheme onedark
 set background=dark
-" filetype on
-" filetype plugin indent on
 
 " ------------------------------------------------------------------------------
 
@@ -281,8 +283,8 @@ let g:lightline.colorscheme = 'gruvbox'
 "#	Mappings
 "###############################################################################
 
-" Add new line without entering insert mode with Enter
-" nmap <S-Enter> O<Esc>
+" Add new line without entering insert mode with Enter | <CR> => Carriage Return
+nmap <S-CR> O<Esc>
 nmap <CR> o<Esc>
 
 " auto close brackets etc...
